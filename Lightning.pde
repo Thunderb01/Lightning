@@ -16,7 +16,7 @@ int n = 5;
 void draw()
 {
   translate(500,500);
-  System.out.println(frameCount);
+  
   
   while (endX<600){
     
@@ -47,5 +47,5 @@ void mousePressed()
 {
 
   background(0);
-  n=rand(20,1);
+  n=rand(30,1);
 }
